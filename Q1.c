@@ -7,7 +7,6 @@ struct Aluno {
 };
 
 int main() {
-    // Inicializando diretamente
     struct Aluno aluno1 = {"Maria Silva", 17, 8.5};
 
     printf("Nome: %s\n", aluno1.nome);
@@ -16,3 +15,4 @@ int main() {
 
     return 0;
 }
+
